@@ -6,7 +6,10 @@
 
 /* variable */
 :root {
-    --base-color: #3C2FC0;
+    --base-color: #45C4E9;
+    --sec-color: #162340;
+    --th-color: #1E656E;
+    --th2-color: #BDD72C;
     --medium-gray: #878898;
     --dark-gray: #242E45;
     --light-red: #F2F1FC;
@@ -48,7 +51,7 @@ strong {
 }
 
 header .navbar-brand img {
-    max-height: 28px;
+    max-height: 52px;
 }
 
 .header-icon .icon>a {
@@ -260,8 +263,9 @@ h2 {
 }
 
 .btn-gradient-flamingo-amethyst-green {
-    background-image: linear-gradient(to right, #f7693c, #c74e45, #7d3785, #582d9f, #3928af, #582d9f, #7d3785, #c74e45, #f7693c);
-    background-size: 200% auto;
+    background-image: linear-gradient(to right, var(--base-color), var(--sec-color), var(--sec-color));
+    background-size: 170% auto;
+    border: 0;
     color: var(--white);
 }
 
