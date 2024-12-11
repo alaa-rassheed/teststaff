@@ -3866,6 +3866,10 @@ textarea:focus {
   z-index: 1;
 }
 
+.bg-sec-color {
+    background-color: var(--sec-color);
+}
+
 .bg-base-color,
 .header-cart-icon .cart-count {
   background-color: var(--base-color);
@@ -13408,6 +13412,11 @@ blockquote footer {
   color: var(--white);
 }
 
+.btn.btn-th2-color {
+    background-color: var(--th2-color);
+    color: var(--white)
+}
+
 .btn.btn-dark-gray:active,
 .btn.btn-dark-gray:hover {
   background-color: transparent;
@@ -13419,6 +13428,12 @@ blockquote footer {
 .btn.btn-dark-gray2:hover {
   background-color: var(--dark2-gray);
   color: var(--white);
+}
+
+.btn.btn-th2-color:active,
+.btn.btn-th2-color:hover {
+    background-color: var(--th2-color);
+    color: var(--white)
 }
 
 .btn.btn-black {
