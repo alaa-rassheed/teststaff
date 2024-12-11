@@ -288,6 +288,7 @@ h6 {
   line-height: 32px;
 }
 
+
 .font-style-italic {
   font-style: italic;
 }
@@ -1792,7 +1793,7 @@ textarea:focus {
 .select:after {
   content: "\e842";
   font-family: feather !important;
-  right: 20px;
+  right: 5px;
   top: 50%;
   height: 34px;
   position: absolute;
@@ -23886,8 +23887,36 @@ footer .footer-navbar .nav-item:last-child a {
 .btn-link-bg {
   color: white;
   background-color: var(--th2-color);
-  
 }
+.careers-section .input {
+  max-width: 190px;
+  display: none;
+}
+
+.careers-section .labelFile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 190px;
+  border: 2px dashed var(--th2-color);
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+} 
+
+.form-control:focus{
+  border-color: var(--th2-color) !important;
+}
+
+.list-style-dots li{
+  list-style: disc;
+}
+.marker-main li::marker {
+  color: var(--th2-color);
+}
+
 /* end addition */
 
 /*# sourceMappingURL=style.min.css.map */
