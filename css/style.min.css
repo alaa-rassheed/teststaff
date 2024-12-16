@@ -3870,6 +3870,10 @@ textarea:focus {
 .bg-sec-color {
     background-color: var(--sec-color);
 }
+.bg-th2-color {
+    background-color: #bdd72c85;
+
+}
 
 .bg-base-color,
 .header-cart-icon .cart-count {
