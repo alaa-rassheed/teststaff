@@ -23925,7 +23925,12 @@ footer .footer-navbar .nav-item:last-child a {
   font-style: italic;
 line-height: 1.3;
 }
-
+@media (max-width: 1199px) {
+  
+  .one-half-screen {
+      height: auto !important;
+  }
+}
 
 /* end addition */
 
