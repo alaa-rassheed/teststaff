@@ -23932,6 +23932,13 @@ line-height: 1.3;
   }
 }
 
+.csr .small-screen {
+  height: 500px !important;
+}
+.deels-check {
+  width: 35px;
+  margin-right: 10px;
+}
 /* end addition */
 
 /*# sourceMappingURL=style.min.css.map */
