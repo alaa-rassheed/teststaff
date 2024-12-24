@@ -23939,6 +23939,13 @@ line-height: 1.3;
   width: 35px;
   margin-right: 10px;
 }
+
+
+.clients-svg{
+  left: -100px;
+top: 90px;
+z-index: 1;
+}
 /* end addition */
 
 /*# sourceMappingURL=style.min.css.map */
